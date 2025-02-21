@@ -1,7 +1,7 @@
 import Timeline, { TimelineItemProps } from "./timeline/timeline";
 
 export default function GridList() {
-    let certTimelineItems: TimelineItemProps[] = [];
+    const certTimelineItems: TimelineItemProps[] = [];
     certTimelineItems.push({
         heading: "Certificate of Sponsorship (CoS)",
         textContent: `

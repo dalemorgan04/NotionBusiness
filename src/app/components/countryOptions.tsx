@@ -249,7 +249,7 @@ export default function CountryOptions() {
         { name: "Zimbabwe", code: "ZW" },
     ];
 
-    let countryListOptions = countryList.map((item, index) => (
+    const countryListOptions = countryList.map((item, index) => (
         <option key={`countrylist_${index}`}>{item.name}</option>
     ));
 
